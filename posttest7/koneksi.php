@@ -1,0 +1,6 @@
+<?php
+$conn = mysqli_connect("localhost", "root", "", "xtrememusix");
+if (!$conn){
+    die("Gagal terhubung ke database!".mysqli_connect_error());
+}
+?>
